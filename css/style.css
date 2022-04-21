@@ -356,6 +356,7 @@ a:link,a:visited{
 
 .product-price{
     text-align: center;
+    line-height: 2;
 }
 
 .product-link{
@@ -861,9 +862,14 @@ input[type="email"]::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+  }
+  .menu-icon-wrapper:hover{
+      cursor: pointer;
   }
   
   .menu-icon {
+      cursor: pointer;
     position: relative;
     width: 30px;
     height: 5px;
@@ -915,6 +921,12 @@ input[type="email"]::placeholder{
   @media (min-width:992px) {
     .nav-logo{
         margin-right: 83px;
+    }
+    .navigation-main{
+        display: block;
+    }
+    .nav-list-holder{
+        display: none;
     }
 
     .nav-cart{
@@ -975,6 +987,15 @@ input[type="email"]::placeholder{
 
 @media (max-width:1050px) {
     .navigation-main{
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .navigation-main{
+        display: block;
+    }
+    .nav-list-holder{
         display: none;
     }
 }
