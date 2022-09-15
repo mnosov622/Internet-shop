@@ -1,1 +1,1 @@
-https://teracle.github.io/Internet-shop/
+https://mnosov622.github.io/Internet-shop/
